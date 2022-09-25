@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const Imagem = styled.img`
-  border-color: black;
+  width: 100%;
+  margin-left: -27%;
 `;
 
 export const Alinharimagens = styled.div`

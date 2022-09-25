@@ -13,3 +13,7 @@ export const Sections = styled.section`
 export const RedesSociais = styled.section`
   text-align: center !important;
 `;
+
+export const AlinharImg = styled.div`
+  display: flex;
+`;

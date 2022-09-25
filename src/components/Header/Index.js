@@ -27,6 +27,9 @@ function Header({ img }) {
             <Li>
               <Itens to="/#projects">Projetos</Itens>
             </Li>
+            <Li>
+              <Itens to="/#Sociais">Redes Sociais</Itens>
+            </Li>
           </Ul>
         </Navbar>
       </Headers>

@@ -4,7 +4,7 @@ import { Highlight, Info } from '../Card/styles';
 import SubTitle from '../SubTitle/Index';
 import Title from '../Title/Index';
 import { SectionHeading } from '../Title/styles';
-import { Sections, RedesSociais } from './styles';
+import { Sections, RedesSociais, AlinharImg } from './styles';
 import IconesRedes from '../Sociais/index';
 import dadosRedes from '../../service/dadosRedes';
 import dadoshabi from '../../service/dadosHabilidades';
@@ -20,7 +20,7 @@ function Section({ profile }) {
           {profile.nome} <Highlight>{profile.sobrenome}</Highlight>
         </SectionHeading>
         <Info>
-          {profile.cidade} - {profile.estado} -{' '}
+          {profile.cidade} - {profile.estado}{' '}
         </Info>
         <p>{profile.biografia}</p>
         <div id="contacts">
@@ -52,9 +52,13 @@ function Section({ profile }) {
       </Sections>
       <Sections id="projects">
         <Title texto="Projetos" />
-        <ExibirImagens />
+        <AlinharImg>
+          {profile.projetos.map((tes) => (
+            <ExibirImagens link={tes.link} img={tes.imga} />
+          ))}
+        </AlinharImg>
       </Sections>
-      <RedesSociais>
+      <RedesSociais id="Sociais">
         <div>
           <p>Redes Sociais</p>
           {dadosRedes.map((res) => (
