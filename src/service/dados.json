@@ -1,0 +1,28 @@
+{
+  "profile": {
+    "img": "https://github.com/edurpj.png",
+    "nome": "Eduardo",
+    "sobrenome": "Ribeiro",
+    "cidade": "Montes Claros",
+    "estado": "MG",
+    "contato": "(38) 98829-0806",
+    "email": "edurpj2@gmail.com",
+    "biografia": "Sou estudante de análise e desenvolvimento de sistemas pela UNIUBE me formo em 2023, trabalho atualmente como desenvolvedor de software, com as tecnologias Java e DB Oracle. ",
+    "experiencia": [
+      {
+        "id": 1,
+        "cargo": "Desenvolvedor de Software Java",
+        "empresa": "Indra Company",
+        "periodo": "jul 2021 - Atualmente",
+        "atividades": "Desenvolvimento Back-end: Java, Spring Boot, JSF/PrimeFaces, Oracle DataBase"
+      },
+      {
+        "id": 2,
+        "cargo": "Desenvolvedor Web/Java",
+        "empresa": "Agência de Tecnologia Agilizeware do Brasil",
+        "periodo": "março de 2021 - junho de 2022 ",
+        "atividades": "Desenvolvimento Back-end em Springboot, criação de paginas, desenvolvimento de componentes e interfaces visuais, integração com Back-end, criação de APIRest"
+      }
+    ]
+  }
+}
